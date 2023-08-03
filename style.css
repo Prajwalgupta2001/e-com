@@ -563,4 +563,13 @@ ul .dropdown li {
     .offer-banner img{
         height: -webkit-fill-available;
     }
+    .email-updated{
+        height: 30px;
+    max-width: 126px;
+    margin-left: 18px;
+    }
+    .updated-inputs button{
+        height: 30px;
+        padding: 6px;
+    }
 }
