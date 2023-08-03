@@ -538,7 +538,7 @@ ul .dropdown li {
     .shop-menu ul li {
         padding: 10px;
     }
-    .dropdown{
+    .dropdown-head{
         display: none;
     } 
     .banner{
@@ -555,5 +555,12 @@ ul .dropdown li {
     }
     .footer{
         display: block;
+    }
+    .offer-banner{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .offer-banner img{
+        height: -webkit-fill-available;
     }
 }
