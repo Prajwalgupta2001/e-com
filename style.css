@@ -496,6 +496,7 @@ ul .dropdown li {
     font-size: 20px;
     margin-bottom: 21px;
     width: 87%;
+    padding-left: 18px;
 }
 
 .footer-button {
@@ -512,4 +513,47 @@ ul .dropdown li {
     width: 100%;
     margin-bottom: 54px;
     justify-content: space-around;
+}
+@media only screen and (max-width:992px) {
+    .wid-25, .wid-50, .width-75, .wid-33{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .arrange-left{
+        float: none;
+    }
+    .search-product{
+        display: flex;
+    }
+    .search-product input{
+        flex: 100%;
+    }
+    .selected-products{
+        text-align: left;
+    }
+    .shop-menu ul{
+        display: block;
+    }
+    .shop-menu ul li {
+        padding: 10px;
+    }
+    .dropdown{
+        display: none;
+    } 
+    .banner{
+        float: none;
+    }
+    .stay-updated{
+        padding-top: 26px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 43px;
+    }
+    .vendors{
+       display: inline-table;
+    }
+    .footer{
+        display: block;
+    }
 }
