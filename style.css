@@ -572,4 +572,7 @@ ul .dropdown li {
         height: 30px;
         padding: 6px;
     }
+    .vendors img{
+        margin-left: 16px;
+    }
 }
